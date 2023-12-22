@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "thailand-administrative-boundary"
+version = "0.1.0"
+description = ""
+authors = ["kahnwong <karn@karnwong.me>"]
+readme = "README.md"
+packages = [
+  {include = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+geopandas = "^0.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

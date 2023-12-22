@@ -21,6 +21,54 @@ test = ["anyio[trio]", "coverage[toml] (>=7)", "exceptiongroup (>=1.2.0)", "hypo
 trio = ["trio (>=0.23)"]
 
 [[package]]
+name = "apache-sedona"
+version = "1.4.1"
+description = "Apache Sedona is a cluster computing system for processing large-scale spatial data"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "apache-sedona-1.4.1.tar.gz", hash = "sha256:e2e75c6eaa360eb770b477c445b55168fe25a17b17c7b7f7fb832ef9202566c3"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:22292df4eb8cbad33cefdf0c3bde52b16fc3656d487c0332165e71288252a9bc"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:70387507657d52265f75fe61693e4422eb577a5881ef7943402f8431087b5331"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:04f37bf790f973c18eb8ff890966ab9ea2d9a5aded89a9c01d90b80d795e48bd"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9bb1a3af37a61aafa5626d6acab4122d21b36f3d88141d19af03e9cfee69ccf4"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-win_amd64.whl", hash = "sha256:3c62bed0003a85c4a31da1310627bc2ea9df1f53553aed3b52d1850c9c9431ec"},
+    {file = "apache_sedona-1.4.1-cp310-cp310-win_arm64.whl", hash = "sha256:9a8f9767fd4ef588960dc169d739a71290b5054f405e67b26545d6457895effd"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:52f0a1bd5a06bff6cda396633ee3ae67a300ef81ef2b8d401850a446a9f7737f"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:45f2fac57b0e718afa021800b993afa90b18720393b71990922296266cd542e5"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:824b5fe8324fe7fb626658c47b6726f14eed472b41fd207ce7845e786d270c4b"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:16021f2749dff7197cbecfae081ebc9f3d8f12f120f29d22bebfba7c93055bdb"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-win_amd64.whl", hash = "sha256:0f4e172e46dc01a45fb96a59ade9336bfb760f9ac53f1c9fbc08e8c4e9635b4b"},
+    {file = "apache_sedona-1.4.1-cp311-cp311-win_arm64.whl", hash = "sha256:076d7e49fa20dd0f8551183e50f02f470a0afc47dcc95588f122ca706d292a89"},
+    {file = "apache_sedona-1.4.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:614397fd11b22bfae0a7333f945089e76611222c13c1cd22fad6f453fa8377b0"},
+    {file = "apache_sedona-1.4.1-cp36-cp36m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0742e3c2b5614c6a4ae9495b7d0de6922d6153f9c2810e72f599e3f68cb3c92f"},
+    {file = "apache_sedona-1.4.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f6deea21fba39e42ba9be11fdb51d9b858371cd0bf71359ae67189ea8080c699"},
+    {file = "apache_sedona-1.4.1-cp36-cp36m-win_amd64.whl", hash = "sha256:002ba638747dbff3e7af3b43f78887e6423cd09fa4e572add634e9a3bc1fa59a"},
+    {file = "apache_sedona-1.4.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:f38cb3c3b947201fe97b1485ca8def95da8bfc40ead9fa868606bfa3ea2aff99"},
+    {file = "apache_sedona-1.4.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6ccbbbd1dad8068bc315c4a3dcbbb216d9c670784ad6667b4e156abc1886c3d3"},
+    {file = "apache_sedona-1.4.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:40b05d99e23169583022811bf867bf4ad10f68a2b7d080cc3eb438f06a1f2468"},
+    {file = "apache_sedona-1.4.1-cp37-cp37m-win_amd64.whl", hash = "sha256:349ed2a131ce7320d1108d630d438d3b386bca2c3b9f37dfa394c60bad8692f7"},
+    {file = "apache_sedona-1.4.1-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:5444d511e6d19be9f6c00aa135a0540636e94236c4f0aecd2706061997daaad1"},
+    {file = "apache_sedona-1.4.1-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:02847c9706db8c1dffa0259c58aec4e4912eb58fd605785d113dfbd9d1694711"},
+    {file = "apache_sedona-1.4.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:cc3e75d8750ff8bd01021757f20177954bd90d73efad3f5808ee8428e2f2fa73"},
+    {file = "apache_sedona-1.4.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a61f5aac79be5f7bf1531c13a20fb074e435524d240d397c3904282414fc7a42"},
+    {file = "apache_sedona-1.4.1-cp38-cp38-win_amd64.whl", hash = "sha256:1dec9fe80072426d58697fbfc3d19f6f4e6a3e4a1e700a282e8301a233933f60"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:3ee5d1fc742718424c7f5446e48131036641571e9a1af293530b93c375ec7bcc"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:2f246d983a34f426dbecd17fd66926b054ac1f6b3ececa945e1a7dcf31dc8351"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7779a8ffae928cc403c053a36c8ac83b912d5dfad50ff4a034235669634bca89"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:12a35112f6399182684128f5605a008fb0e8687ab93a7c39ddc5841b0cffe39d"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-win_amd64.whl", hash = "sha256:0c849745c21989341f2ba31f7e2419968841a1453a5916c1777ab1b53e8957a6"},
+    {file = "apache_sedona-1.4.1-cp39-cp39-win_arm64.whl", hash = "sha256:6b05a7c7d0c35ede313019856d4e0fdb845048bdb8b6f16760fdecdb321d1565"},
+]
+
+[package.dependencies]
+attrs = "*"
+shapely = ">=1.7.0"
+
+[package.extras]
+spark = ["pyspark (>=2.3.0)"]
+
+[[package]]
 name = "appnope"
 version = "0.1.3"
 description = "Disable App Nap on macOS >= 10.9"
@@ -532,6 +580,17 @@ files = [
 devel = ["colorama", "json-spec", "jsonschema", "pylint", "pytest", "pytest-benchmark", "pytest-cache", "validictory"]
 
 [[package]]
+name = "findspark"
+version = "2.0.1"
+description = "Find pyspark to make it importable."
+optional = false
+python-versions = "*"
+files = [
+    {file = "findspark-2.0.1-py2.py3-none-any.whl", hash = "sha256:e5d5415ff8ced6b173b801e12fc90c1eefca1fb6bf9c19c4fc1f235d4222e753"},
+    {file = "findspark-2.0.1.tar.gz", hash = "sha256:aa10a96cb616cab329181d72e8ef13d2dc453b4babd02b5482471a0882c1195e"},
+]
+
+[[package]]
 name = "fiona"
 version = "1.9.5"
 description = "Fiona reads and writes spatial data files"
@@ -607,6 +666,23 @@ packaging = "*"
 pandas = ">=1.4.0"
 pyproj = ">=3.3.0"
 shapely = ">=1.8.0"
+
+[[package]]
+name = "geospark"
+version = "1.3.1"
+description = "GeoSpark Python"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "geospark-1.3.1-py3-none-any.whl", hash = "sha256:1056034994b93773849b1c28a05df463d885665eb56d8655f4a2f7f02e5dea72"},
+    {file = "geospark-1.3.1.tar.gz", hash = "sha256:ab6157297f6d395001305b1e21f1a4cca75e169c704b3de998bbc260095900a3"},
+]
+
+[package.dependencies]
+attrs = "*"
+findspark = "*"
+pyspark = "*"
+shapely = "*"
 
 [[package]]
 name = "idna"
@@ -1579,6 +1655,65 @@ files = [
 tests = ["pytest"]
 
 [[package]]
+name = "py4j"
+version = "0.10.9.7"
+description = "Enables Python programs to dynamically access arbitrary Java objects"
+optional = false
+python-versions = "*"
+files = [
+    {file = "py4j-0.10.9.7-py2.py3-none-any.whl", hash = "sha256:85defdfd2b2376eb3abf5ca6474b51ab7e0de341c75a02f46dc9b5976f5a5c1b"},
+    {file = "py4j-0.10.9.7.tar.gz", hash = "sha256:0b6e5315bb3ada5cf62ac651d107bb2ebc02def3dee9d9548e3baac644ea8dbb"},
+]
+
+[[package]]
+name = "pyarrow"
+version = "14.0.2"
+description = "Python library for Apache Arrow"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pyarrow-14.0.2-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:ba9fe808596c5dbd08b3aeffe901e5f81095baaa28e7d5118e01354c64f22807"},
+    {file = "pyarrow-14.0.2-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:22a768987a16bb46220cef490c56c671993fbee8fd0475febac0b3e16b00a10e"},
+    {file = "pyarrow-14.0.2-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2dbba05e98f247f17e64303eb876f4a80fcd32f73c7e9ad975a83834d81f3fda"},
+    {file = "pyarrow-14.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a898d134d00b1eca04998e9d286e19653f9d0fcb99587310cd10270907452a6b"},
+    {file = "pyarrow-14.0.2-cp310-cp310-manylinux_2_28_aarch64.whl", hash = "sha256:87e879323f256cb04267bb365add7208f302df942eb943c93a9dfeb8f44840b1"},
+    {file = "pyarrow-14.0.2-cp310-cp310-manylinux_2_28_x86_64.whl", hash = "sha256:76fc257559404ea5f1306ea9a3ff0541bf996ff3f7b9209fc517b5e83811fa8e"},
+    {file = "pyarrow-14.0.2-cp310-cp310-win_amd64.whl", hash = "sha256:b0c4a18e00f3a32398a7f31da47fefcd7a927545b396e1f15d0c85c2f2c778cd"},
+    {file = "pyarrow-14.0.2-cp311-cp311-macosx_10_14_x86_64.whl", hash = "sha256:87482af32e5a0c0cce2d12eb3c039dd1d853bd905b04f3f953f147c7a196915b"},
+    {file = "pyarrow-14.0.2-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:059bd8f12a70519e46cd64e1ba40e97eae55e0cbe1695edd95384653d7626b23"},
+    {file = "pyarrow-14.0.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3f16111f9ab27e60b391c5f6d197510e3ad6654e73857b4e394861fc79c37200"},
+    {file = "pyarrow-14.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:06ff1264fe4448e8d02073f5ce45a9f934c0f3db0a04460d0b01ff28befc3696"},
+    {file = "pyarrow-14.0.2-cp311-cp311-manylinux_2_28_aarch64.whl", hash = "sha256:6dd4f4b472ccf4042f1eab77e6c8bce574543f54d2135c7e396f413046397d5a"},
+    {file = "pyarrow-14.0.2-cp311-cp311-manylinux_2_28_x86_64.whl", hash = "sha256:32356bfb58b36059773f49e4e214996888eeea3a08893e7dbde44753799b2a02"},
+    {file = "pyarrow-14.0.2-cp311-cp311-win_amd64.whl", hash = "sha256:52809ee69d4dbf2241c0e4366d949ba035cbcf48409bf404f071f624ed313a2b"},
+    {file = "pyarrow-14.0.2-cp312-cp312-macosx_10_14_x86_64.whl", hash = "sha256:c87824a5ac52be210d32906c715f4ed7053d0180c1060ae3ff9b7e560f53f944"},
+    {file = "pyarrow-14.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:a25eb2421a58e861f6ca91f43339d215476f4fe159eca603c55950c14f378cc5"},
+    {file = "pyarrow-14.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5c1da70d668af5620b8ba0a23f229030a4cd6c5f24a616a146f30d2386fec422"},
+    {file = "pyarrow-14.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:2cc61593c8e66194c7cdfae594503e91b926a228fba40b5cf25cc593563bcd07"},
+    {file = "pyarrow-14.0.2-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:78ea56f62fb7c0ae8ecb9afdd7893e3a7dbeb0b04106f5c08dbb23f9c0157591"},
+    {file = "pyarrow-14.0.2-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:37c233ddbce0c67a76c0985612fef27c0c92aef9413cf5aa56952f359fcb7379"},
+    {file = "pyarrow-14.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:e4b123ad0f6add92de898214d404e488167b87b5dd86e9a434126bc2b7a5578d"},
+    {file = "pyarrow-14.0.2-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:e354fba8490de258be7687f341bc04aba181fc8aa1f71e4584f9890d9cb2dec2"},
+    {file = "pyarrow-14.0.2-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:20e003a23a13da963f43e2b432483fdd8c38dc8882cd145f09f21792e1cf22a1"},
+    {file = "pyarrow-14.0.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:fc0de7575e841f1595ac07e5bc631084fd06ca8b03c0f2ecece733d23cd5102a"},
+    {file = "pyarrow-14.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:66e986dc859712acb0bd45601229021f3ffcdfc49044b64c6d071aaf4fa49e98"},
+    {file = "pyarrow-14.0.2-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:f7d029f20ef56673a9730766023459ece397a05001f4e4d13805111d7c2108c0"},
+    {file = "pyarrow-14.0.2-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:209bac546942b0d8edc8debda248364f7f668e4aad4741bae58e67d40e5fcf75"},
+    {file = "pyarrow-14.0.2-cp38-cp38-win_amd64.whl", hash = "sha256:1e6987c5274fb87d66bb36816afb6f65707546b3c45c44c28e3c4133c010a881"},
+    {file = "pyarrow-14.0.2-cp39-cp39-macosx_10_14_x86_64.whl", hash = "sha256:a01d0052d2a294a5f56cc1862933014e696aa08cc7b620e8c0cce5a5d362e976"},
+    {file = "pyarrow-14.0.2-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:a51fee3a7db4d37f8cda3ea96f32530620d43b0489d169b285d774da48ca9785"},
+    {file = "pyarrow-14.0.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:64df2bf1ef2ef14cee531e2dfe03dd924017650ffaa6f9513d7a1bb291e59c15"},
+    {file = "pyarrow-14.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3c0fa3bfdb0305ffe09810f9d3e2e50a2787e3a07063001dcd7adae0cee3601a"},
+    {file = "pyarrow-14.0.2-cp39-cp39-manylinux_2_28_aarch64.whl", hash = "sha256:c65bf4fd06584f058420238bc47a316e80dda01ec0dfb3044594128a6c2db794"},
+    {file = "pyarrow-14.0.2-cp39-cp39-manylinux_2_28_x86_64.whl", hash = "sha256:63ac901baec9369d6aae1cbe6cca11178fb018a8d45068aaf5bb54f94804a866"},
+    {file = "pyarrow-14.0.2-cp39-cp39-win_amd64.whl", hash = "sha256:75ee0efe7a87a687ae303d63037d08a48ef9ea0127064df18267252cfe2e9541"},
+    {file = "pyarrow-14.0.2.tar.gz", hash = "sha256:36cef6ba12b499d864d1def3e990f97949e0b79400d08b7cf74504ffbd3eb025"},
+]
+
+[package.dependencies]
+numpy = ">=1.16.6"
+
+[[package]]
 name = "pycparser"
 version = "2.21"
 description = "C parser in Python"
@@ -1642,6 +1777,26 @@ files = [
 
 [package.dependencies]
 certifi = "*"
+
+[[package]]
+name = "pyspark"
+version = "3.4.1"
+description = "Apache Spark Python API"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pyspark-3.4.1.tar.gz", hash = "sha256:72cd66ab8cf61a75854e5a753f75bea35ee075c3a96f9de4e2a66d02ec7fc652"},
+]
+
+[package.dependencies]
+py4j = "0.10.9.7"
+
+[package.extras]
+connect = ["googleapis-common-protos (>=1.56.4)", "grpcio (>=1.48.1)", "grpcio-status (>=1.48.1)", "numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
+ml = ["numpy (>=1.15)"]
+mllib = ["numpy (>=1.15)"]
+pandas-on-spark = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
+sql = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
 
 [[package]]
 name = "python-dateutil"
@@ -2426,4 +2581,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "342668d69707fa73187d4b17b39a242b9443dbe41607788bd3de26d3cd7a119e"
+content-hash = "ccda71b23969eea70cdda0f163badda9537c0c083e94b5fbe431398f3e1545bb"
